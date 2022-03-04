@@ -1,0 +1,14 @@
+form{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+    font-family: vardana;
+    background: #053853;
+    color: white;
+    
+}
+.inputs p {
+    text-align: center;
+}
+input
