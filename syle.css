@@ -15,13 +15,16 @@
 
 
 .card{
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 500px;
     padding: 20px;
     font-size: 40px;
     font-family: vardana;
-    background: #859e63;
+    background: #529fa1ce;
     color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
     
 }
 .inputs p {
@@ -31,11 +34,13 @@
     padding: 7px;
     font-size:20px;
     width: 200px;
-    margin-left: 150px;
+    margin-left: 160px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     background-color: aqua;
+    margin-top: 40px;
+
 }
 label{
     margin-left: 10px;

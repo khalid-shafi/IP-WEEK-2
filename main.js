@@ -23,7 +23,7 @@ let months =[
         "kwame",
       ];
       const femaleAkan =[
-        "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
+        "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama",
       ];
       const month = document.getElementById("month");
       const day = document.getElementById("day");
