@@ -7,7 +7,7 @@
 .background{
     height: 100vh;
     width: 100%;
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/106/276/small/geometric-black-and-gold-background-free-vector.jpg);
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Perfect-Sunset-Nature-Background-Image.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -23,8 +23,12 @@
     background: #529fa1ce;
     color: black;
     position: absolute;
+    top: 25%;
+    left: 5%;
     display: flex;
     align-items: center;
+    
+
     
 }
 .inputs p {
