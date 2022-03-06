@@ -18,8 +18,9 @@ input[type=submit]{
     margin-left: 150px;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
 }
-.span{
+label{
     margin-left: 10px;
     font-size: 30px;
 }
@@ -31,3 +32,4 @@ input[type=submit]{
     padding-left: 15px;
     font-size: 20px;
 }
+
