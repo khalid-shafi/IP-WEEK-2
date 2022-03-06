@@ -19,6 +19,7 @@ input[type=submit]{
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    background-color: aqua;
 }
 label{
     margin-left: 10px;
