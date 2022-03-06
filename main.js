@@ -23,32 +23,26 @@ let months =[
         "kwame",
       ];
       const femaleAkan =[
-        "Akosua", 
-        "Adwoa",
-        "Abenaa",
-        "Akua",
-        "Yaa", 
-        "Afua", 
-        "Ama",
+        "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
       ];
       const month = document.getElementById("month");
       const day = document.getElementById("day");
       const btn = document.getElementById("btn");
       const year = document.getElementById("year");
       const gender = document.getElementById("gender");
-      const dayResults = document.querySelector(".dayResults");
-      const monthResults = document.querySelector(".monthResults");
+      const dayResult = document.querySelector(".dayResult");
+      const monthResult = document.querySelector(".monthResult");
       const name = document.querySelector(".name");
 
       btn.addEventListener("click", function () {
         const MM = month.value;
         const DD = day.value;
         if (DD < 1 || DD > 30) {
-          dayResults.textContent = "invalid day";
+          dayResult.textContent = "invalid day";
           return;
         }
         if (MM < 1 || MM > 12) {
-          monthResults.textContent = "invalid month";
+          monthResult.textContent = "invalid month";
           return;
         }
         
@@ -57,7 +51,7 @@ let months =[
         var Day =  New.getDay();
 
 
-        if (gender.value == "female") {
+        f (gender.value == "female") {
             switch (Day) {
               case 0:
               //   name.textContent = femaleAkan[0];
