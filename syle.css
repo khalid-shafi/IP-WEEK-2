@@ -75,10 +75,10 @@ label{
     top: 35%;
 }
 .lufluf p {
-    font-size: 25px;
+    font-size: 35px;
     font-family: "poppins" , sans-serif;
     text-align: justify;
-    color: rgb(137, 139, 0);
+    color: red;
 }
 .lufluf h3 {
     padding-bottom: 15px;
