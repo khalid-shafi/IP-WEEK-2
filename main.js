@@ -34,12 +34,12 @@ let months =[
       const monthResult = document.querySelector("monthResult");
       const name = document.querySelector("name");
 
-      console.log()
+    
 
       btn.addEventListener("click", function () {
         const MM = month.value;
         const DD = day.value;
-        if (DD < 1 || DD > 30) {
+        if (DD < 1 || DD > 31) {
           dayResult.textContent = "invalid day";
           return;
         }
@@ -48,7 +48,7 @@ let months =[
           return;
         }
         
-        var date1 = month[MM-1] + " " + DD + " ," + year.value;
+        var date1 = months[MM-1] + " " + DD + " ," + year.value;
         var New = new Date(date1);
         var Day =  New.getDay();
 
@@ -93,10 +93,12 @@ let months =[
           } else  {
             switch (Day) {
               case 0:
-                name.textContent = maleAkan[0];
+                // name.textContent = maleAkan[0];
+                alert(maleAkan[0]);
                 break;
               case 1:
-                name.textContent = maleAkan[1];
+                // name.textContent = maleAkan[1];
+                alert(maleAkan[1]);
                 break;
               case 2:
                 name.textContent = maleAkan[2];
