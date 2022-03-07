@@ -59,7 +59,7 @@ let months =[
             switch (Day) {
               case 0:
               //   name.textContent = femaleAkan[0];
-              alert(femaleAkan[0]);
+              alert(" your akan name is "+ femaleAkan[0]);
                 break;
               case 1:
               //   name.textContent = femaleAkan[1];
