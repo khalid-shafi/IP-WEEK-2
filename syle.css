@@ -68,6 +68,24 @@ label{
 .chuchu label{
     margin-top: 20px;
 }
+.lufluf {
+    width: 450px;
+    position: absolute;
+    left: 60%;
+    top: 35%;
+}
+.lufluf p {
+    font-size: 25px;
+    font-family: "poppins" , sans-serif;
+    text-align: justify;
+    color: rgb(137, 139, 0);
+}
+.lufluf h3 {
+    padding-bottom: 15px;
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
  
 
 
