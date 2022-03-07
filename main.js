@@ -30,9 +30,11 @@ let months =[
       const btn = document.getElementById("btn");
       const year = document.getElementById("year");
       const gender = document.getElementById("gender");
-      const dayResult = document.querySelector(".dayResult");
-      const monthResult = document.querySelector(".monthResult");
-      const name = document.querySelector(".name");
+      const dayResult = document.querySelector("dayResult");
+      const monthResult = document.querySelector("monthResult");
+      const name = document.querySelector("name");
+
+      console.log()
 
       btn.addEventListener("click", function () {
         const MM = month.value;
@@ -46,12 +48,14 @@ let months =[
           return;
         }
         
-        var date01 = month[MM-1] + " " + DD + " ," + year.value;
-        var New = new Date(date01);
+        var date1 = month[MM-1] + " " + DD + " ," + year.value;
+        var New = new Date(date1);
         var Day =  New.getDay();
 
+        console.log (date1)
 
-        f (gender.value == "female") {
+
+        if (gender.value == "female") {
             switch (Day) {
               case 0:
               //   name.textContent = femaleAkan[0];
@@ -86,7 +90,7 @@ let months =[
               //   name.textContent = "out of range";
               alert("you are out of range");
             }
-          } else {
+          } else  {
             switch (Day) {
               case 0:
                 name.textContent = maleAkan[0];
