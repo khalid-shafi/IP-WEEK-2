@@ -28,9 +28,7 @@
       <form>
     <div class="inputs">
         <p>Enter your date birth</p>
-        <input type="number"  id="day" placeholder="day">
-        <input type="number"  id="month" placeholder="month">
-        <input type="number" id="year" placeholder="year">
+        <input type="date" id="date">
     </div>
 
     <div class="chuchu">
@@ -39,22 +37,34 @@
         </span>
         
     </div> 
-    <select name="gender" id="gender">
-    <option value="female">female</option>
-    <option value="male">male</option>
-    </select> <br>
+     <input type="radio" name="gender" id="male" value="male">
+     <label for="male">male</label>
+     <input type="radio" name="gender" id="female" value="female">
+     <label for="female">female</label>
+
+    
     <button id="btn">submit</button>
       </form>
-      <div id="dayResult"></div>
-    <div id="monthResult"></div>
-    <div id="name"></div>
+    <div class="name">
+      <p id="result"></p>
+    </div>
   </div>
      
     <div class="lufluf">
         <h3>About the  site</h3>
         <p>At this site you can be able to get your Akan name. Akan name are names given to Ghanians according to the months and year they were born in.</p>
     </div>
-
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+            <h2>social media</h2>
+            <a href="#">Instagram</a><br>
+            <a href="#">Facebook</a><br>
+            <a href="#">Snapchat</a><br>
+            <a href="#">Twitter</a><br>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="main.js"></script>
 </body>

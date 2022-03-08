@@ -59,23 +59,23 @@ let months =[
             switch (Day) {
               case 0:
               //   name.textContent = femaleAkan[0];
-              alert(" your akan name is "+ femaleAkan[0]);
+              alert(" Your akan name is "+ femaleAkan[0]);
                 break;
               case 1:
               //   name.textContent = femaleAkan[1];
-              alert(femaleAkan[1]);
+              alert( "Your akan name is " + femaleAkan[1]);
                 break;
               case 2:
               //   name.textContent = femaleAkan[2];
-              alert(femaleAkan[2]);
+              alert(" Your akan name is " +femaleAkan[2]);
                 break;
               case 3:
               //   name.textContent = femaleAkan[3];
-              alert(femaleAkan[3]);
+              alert( " Your akan name is " +femaleAkan[3]);
                 break;
               case 4:
               //   name.textContent = femaleAkan[4];
-              alert(femaleAkan[4]);
+              alert( " Your akan name is " +femaleAkan[4]);
       
                 break;
               case 5:
@@ -84,7 +84,7 @@ let months =[
                 break;
               case 6:
               //   name.textContent = femaleAkan[6];
-              alert(femaleAkan[6]);
+              alert( " Your akan name is " +femaleAkan[6]);
                 break;
               default:
               //   name.textContent = "out of range";
@@ -94,26 +94,31 @@ let months =[
             switch (Day) {
               case 0:
                 // name.textContent = maleAkan[0];
-                alert(maleAkan[0]);
+                alert( " Your akan name is " +maleAkan[0]);
                 break;
               case 1:
                 // name.textContent = maleAkan[1];
-                alert(maleAkan[1]);
+                alert(" Your akan name is " +maleAkan[1]);
                 break;
               case 2:
-                name.textContent = maleAkan[2];
+                // name.textContent = maleAkan[2];
+                alert(" Your akan name is " +maleAkan[2]);
                 break;
               case 3:
-                name.textContent = maleAkan[3];
+                // name.textContent = maleAkan[3];
+                alert(" Your akan name is " +maleAkan[3]);
                 break;
               case 4:
-                name.textContent = maleAkan[4];
+                // name.textContent = maleAkan[4];
+                alert(" Your akan name is " +maleAkan[4]);
                 break;
               case 5:
-                name.textContent = maleAkan[5];
+                // name.textContent = maleAkan[5];
+                alert(" Your akan name is " +maleAkan[5]);
                 break;
               case 6:
-                name.textContent = maleAkan[6];
+                // name.textContent = maleAkan[6];
+                alert(" Your akan name is " +maleAkan[6]);
                 break;
               default:
                 name.textContent = "out of range";
