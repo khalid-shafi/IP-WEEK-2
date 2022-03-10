@@ -28,7 +28,7 @@
           let Day =  birthday.getDay();
 
           if (gender.value  === "male"){
-              result.innerHTML = "your name is " + maleAkan[Day];
+              result.innerHTML = "Your Akan name is " + maleAkan[Day];
           }
           if(gender.value === "female"){
             result.innerHTML = femaleAkan[Day];

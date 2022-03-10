@@ -7,7 +7,7 @@
 .background{
     height: 100vh;
     width: 100%;
-    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Perfect-Sunset-Nature-Background-Image.jpeg);
+    background-image: url(https://media.istockphoto.com/photos/black-dark-background-picture-id155793519?k=20&m=155793519&s=170667a&w=0&h=OoEjpqYs1lbsQ7NglJ2VcghYxpu2-3bGFGRp3wneMoY=);
     background-size: cover;
     background-position: center;
 
@@ -51,7 +51,7 @@ label{
     font-size: 30px;
 }
 .inputs input{
-    width: 120px;
+    width: 300px;
     height: 35px;
     border: none;
     border-radius: 10px;
@@ -71,41 +71,74 @@ label{
 .lufluf {
     width: 450px;
     position: absolute;
-    left: 60%;
-    top: 35%;
+    left: 54%;
+    top: 20%;
 }
 .lufluf p {
-    font-size: 35px;
+    font-size: 23px;
     font-family: "poppins" , sans-serif;
     text-align: justify;
-    color: red;
+    color: rgb(206, 156, 21);
 }
 .lufluf h3 {
     padding-bottom: 15px;
     font-size: 30px;
     letter-spacing: 2px;
+    color: wheat;
 
 }
-.name p{
-    font-size: 60px;
-    color: red;
+#result{
+    font-size: 40px;
+    color: rgb(114, 228, 8);
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 20px;
+
 
 }
-.footer-heading footer-1 {
-    padding-left: 20px;
-    margin-right: 50px;
+.social-media {
+    position: absolute;
+    top: 90%;
+    left: 18%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
-.footer-heading footer-1 a{
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
+.social-media p{
+    font-size: 25px;
+    color: white;
+    margin-right: 40px;
+
 }
-.footer-heading footer-1 a:hover{
-    color: red;
-    transition: 0.3 ease-out;
+.social-media .social a{
+    display: inline-block;
+    margin-right: 15px;
+    color: aqua;
+    transition: transform .3s;
 }
+.social-media .social a:hover{
+    transform: scale(2.0);
+}
+.box{
+    width: 500px;
+    height: 150px;
+    background-color: grey;
+    position: absolute;
+    top: 63%;
+    right: 20%;
+    border-radius: 15px;
+}
+.box p{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
 
 
  
-
 
