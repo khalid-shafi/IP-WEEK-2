@@ -7,9 +7,8 @@
 
 # Built By
 #### the following stacks was used in building this project. It includes:
-#### .HTML 5
+#### .HTML 
 #### .CSS
-#### .Bootsrap
 #### .js
 
 
